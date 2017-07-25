@@ -1,0 +1,25 @@
+This is a text file
+use to test the server 
+in this example we use server Node.js 
+
+Node.js
+For most of its life, the JavaScript programming language has lived inside of web
+browsers.
+In 2009, Node.js came around. Node took V8, Google Chrome's powerful JavaScript
+engine, out of the browser and made it able to run on servers. In the browser.
+
+JavaScript might not be the perfect language for everyone, but Node.js had some
+real benefits. For one, the V8 JavaScript engine is fast and an asynchronous coding style,
+
+
+
+
+Building a web server with Node: the HTTP Module:
+Understanding the big concepts in Node will help you understand the built-in
+module that's most important to Express: its HTTP module. It's the module that
+makes it possible to develop web servers with Node, and it's what Express is built
+on.
+http.createServer. This function takes a callback that's called every time a
+request comes into your server, and it returns a server object. Here's a very simple
+server that sends "hello world" with every request
+
